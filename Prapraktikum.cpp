@@ -55,7 +55,7 @@ int main ()
 			{
 				cout<<"Masukkan Bilangan Pertama : "; cin>>j;
 				cout<<"Masukkan Bilangan Pangkat : "; cin>>k;
-				int m = pow(j,k);
+				int m = pow (j,k);
 				cout<<"Hasilnya adalah  : "<< m <<endl;
 				break;
 			}
