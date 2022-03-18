@@ -6,7 +6,7 @@ int main ()
 {
   int a, b, c, d, e, f, g, h, i, j, k;
 	cout<<"========================================"<<endl;
-	cout<<"\tKALKULATOR SEDERHANA"<<endl;
+	cout<<"\tPRROGRAM KALKULATOR SEDERHANA"<<endl;
 	cout<<"========================================"<<endl;
 	cout<<"\t1. Penambahan"<<endl;
 	cout<<"\t2. Pengurangan"<<endl;
@@ -41,17 +41,17 @@ int main ()
 			 }
 		   case 4 : 
 			 {
-			   	cout<<"Masukkan angka 1 : ";cin>>g;
-			   	cout<<"Masukkan angka 2 : ";cin>>h;
+			   	cout<<"Masukkan angka 1 : "; cin>>g;
+			   	cout<<"Masukkan angka 2 : "; cin>>h;
 			   	int r = g * h;
-			   	cout<<"Hasilnya adalah  :  "<<r<<endl;
+			   	cout<<"Hasilnya adalah  :  "<< r <<endl;
 	   		}
 		   case 5 :
 			{
-				cout<<"Masukkab angka 	: ";cin>>j;
-				cout<<"Masukkan pangkat : ";cin>>k;
+				cout<<"Masukkab angka 	: "; cin>>j;
+				cout<<"Masukkan pangkat : "; cin>>k;
 				int m = pow(j,k);
-				cout<<"Hasilnya adalah  : "<<m<<endl;
+				cout<<"Hasilnya adalah  : "<< m <<endl;
 				break;
 			}
 		   case 6 :
