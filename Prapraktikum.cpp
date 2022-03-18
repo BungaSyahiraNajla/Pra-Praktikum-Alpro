@@ -37,7 +37,7 @@ int main ()
 				 cout<<"Masukan angka 1 : "; cin>>e;
 				 cout<<"Masukan angka 2 : "; cin>>f;
 				 int z = e/f;
-				 cout<<"Hasilnya adalah : "; << z <<endl;
+				 cout<<"Hasilnya adalah : " << z <<endl;
 			 }
 		   case 4 : 
 			 {
